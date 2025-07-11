@@ -1,0 +1,29 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+}
+
+.form-group input,
+.form-group button  {
+    width: 280px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid  #a39e9e;
+} 
+
+.form-group button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 310px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
